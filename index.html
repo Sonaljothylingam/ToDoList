@@ -11,8 +11,39 @@
       <li><a href="#">Help</a></li>
     </ul>
   </div> 
+  <h2>TODOs List</h2>
   <div class="container">
-    <h2 class="text-center">TODOs List</h2>
-     
-  
-  </body>
+         <div class="form">
+      <label for="title" class="blah">Title</label><br>
+      <input type="text" class="input" id="title" aria-describedby="emailHelp"><br>
+      <small id="emailHelp" class="form-text text-muted">Add an item to the list</small><br>
+     </div>
+     <div class="form">
+      <br><label for="description" class="blah">Description</label><br>
+      <textarea class="bom" rows="3"></textarea>
+     </div>
+      <button id="add">Add to list</button>
+      <button id="clear">Clear list</button> 
+     </div>
+     <div class="items">
+      <h2>Your Items</h2>
+      <table class="table">
+        <thead>
+          <tr>
+          <th scope="col" style="padding:10px 50px">Sno</th>
+          <th scope="col" style="padding:10px 50px" >Item Title </th>
+           <th scope="col" style="padding:10px 50px">Item Description</th>
+            <th scope="col" style="padding:10px 50px" >Action</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+          <tr>
+            <th scope="row">1</th>
+            <td>Get some Coffee</td>
+            <td>You need coffee as you are a coder</td>
+            <td><button class="btnd" style="margin: 5px 40px">Delete</button></td> 
+          </tr>
+        </tbody>
+      </table>
+     </div>
+    </body>

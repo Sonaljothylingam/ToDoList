@@ -7,6 +7,7 @@ body{
     color: white;
     margin-top: 0%;
     padding-top: 0%;
+    font-size: 30px;
 }
 .mid{
     display: block;
@@ -31,6 +32,51 @@ body{
     text-decoration: underline;
     border-radius: 20px;
 }
-.container{
-    text-align: center;
+h2{
+text-align: center;
 }
+.container{
+    padding-left: 550px;
+}
+.blah{
+    font-size: 15px;
+}
+button{
+    background-color: black;
+    color: azure;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+#title{
+    width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  resize: vertical;
+}
+.bom{
+    width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+ tr {
+    border: solid;
+    border-width: 1px 0;
+ }
